@@ -22,4 +22,15 @@ entries:
     urls:
     - https://github.com/gcolman/helmcharts/releases/download/app2-0.1.0/app2-0.1.0.tgz
     version: 0.1.0
-generated: "2022-10-19T15:59:50.250326+01:00"
+  hello-world:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2022-10-19T19:16:11.33676+01:00"
+    description: A Helm chart for a Kubernetes hello-world application
+    digest: 9c1e4b1f54adafd2cfcf3a6970c809cd5b4e5601013625a972833f2e1c121aa7
+    name: hello-world
+    type: application
+    urls:
+    - https://github.com/gcolman/helmcharts/releases/download/hello-world-0.1.0/hello-world-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-10-19T19:16:11.336773+01:00"
