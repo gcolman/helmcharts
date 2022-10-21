@@ -3,9 +3,9 @@ entries:
   app1:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-10-21T09:10:12.936627962Z"
+    created: "2022-10-21T09:12:20.27944539Z"
     description: A Helm chart for Kubernetes
-    digest: 1a3261a39323910d5af60db5f3d44953913c2a2d079c0941c57747e968bbe23c
+    digest: ec207920563eb58abb2f913e2897ec5c65928887333c3c6c93e2e77f1370956a
     name: app1
     type: application
     urls:
@@ -14,12 +14,12 @@ entries:
   app2:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-10-21T09:10:12.93716671Z"
+    created: "2022-10-21T09:12:20.280108504Z"
     description: A Helm chart for Kubernetes
-    digest: a4cb24f7235e126c5877ff3993500e96e2bd60541caffb8a34920dc3c972d194
+    digest: d178f503f77c93ad07b7245e60f72f56ecb18594399b8a8932d65e4a9827a938
     name: app2
     type: application
     urls:
     - https://raw.githubusercontent.com/CodeWithStu/helm-private-demo/gh-pages/app2-0.1.0.tgz
     version: 0.1.0
-generated: "2022-10-21T09:10:12.935549265Z"
+generated: "2022-10-21T09:12:20.277935659Z"
