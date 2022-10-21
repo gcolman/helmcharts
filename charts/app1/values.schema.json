@@ -2,11 +2,16 @@
     "$schema": "http://json-schema.org/schema#",
     "type": "object",
     "properties": {
-        "repository": {
-            "type": "string",
-            "title": "Container Image",
-            "form": true,
-            "description": "Enter the container image that you will deploy. e.g. nginx"
+        "image": {
+            "type": "object",
+            "properties": {           
+                "repository": {
+                    "type": "string",
+                    "title": "Container Image",
+                    "form": true,
+                    "description": "Enter the container image that you will deploy. e.g. nginx"
+                }    
+            }
         },
         "ingress": {
             "type": "object",
