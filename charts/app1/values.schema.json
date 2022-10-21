@@ -19,11 +19,13 @@
                     "form": true,
                     "description": "Creating an ingress will allow your container to be avaiable over the internet"
                 },
-                "host": {
-                    "type": "string",
-                    "title": "enter the prefix for your hostname",
-                    "form": true,
-                    "description": "Hostname prefix"
+                "hosts": {
+                    "host": {
+                        "type": "string",
+                        "title": "enter the prefix for your hostname",
+                        "form": true,
+                        "description": "Hostname prefix"
+                    }
                 }
             }
         }
