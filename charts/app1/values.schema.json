@@ -38,16 +38,16 @@
                     "properties": {}
                 },
                 "hosts":{
-                    "type": "array",        
+                    "type": "object",        
                     "items": [
                     {
-                        "type": "object",
+                        "type": "array",
                         "properties": {
                             "host": {
-                            "type": "string",
-                            "title": "enter the prefix for your hostname",
-                            "form": true,
-                            "description": "Hostname prefix"                            
+                                "type": "string",
+                                "title": "enter the prefix for your hostname",
+                                "form": true,
+                                "description": "Hostname prefix"                            
                             }
                         }    
                     }]
