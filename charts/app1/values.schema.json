@@ -37,19 +37,16 @@
                     "description": "the ingress classname",
                     "properties": {}
                 },
-                "hosts":{
-                    "type": "array",        
-                    "items": [
-                    {
-                        "properties": {
-                            "host": {
-                                "type": "string",
-                                "title": "enter the prefix for your hostname",
-                                "form": true,
-                                "description": "Hostname prefix"                            
-                            }
-                        }    
-                    }]
+                "hosts":{      
+                    "type": "object",
+                    "properties": {
+                        "host": {
+                            "type": "string",
+                            "title": "enter the prefix for your hostname",
+                            "form": true,
+                            "description": "Hostname prefix"                            
+                        }
+                    }    
                 }
             }
         }
