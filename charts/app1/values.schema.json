@@ -21,11 +21,13 @@
                 },
                 "hosts": {
                     "type": "object",
-                    "host": {
-                        "type": "string",
-                        "title": "enter the prefix for your hostname",
-                        "form": true,
-                        "description": "Hostname prefix"
+                    "properties": {
+                        "host": {
+                            "type": "string",
+                            "title": "enter the prefix for your hostname",
+                            "form": true,
+                            "description": "Hostname prefix"
+                        }
                     }
                 }
             }
