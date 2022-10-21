@@ -3,7 +3,17 @@ entries:
   app1:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-10-21T14:28:30.442595771Z"
+    created: "2022-10-21T14:32:40.868971967Z"
+    description: A Helm chart for Kubernetes
+    digest: 0813d61fd548a9b174e0e4f9b6342baaff81d9ab7eaef240f920ad71facb8499
+    name: app1
+    type: application
+    urls:
+    - https://gcolman.github.io/helmcharts/app1-0.1.8.tgz
+    version: 0.1.8
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-10-21T14:32:40.868440164Z"
     description: A Helm chart for Kubernetes
     digest: 06cbecd6e0af3cd2bb3d8f93210d96ecfba7a197ad6e6500a28aebc8eb9d78a8
     name: app1
@@ -13,7 +23,7 @@ entries:
     version: 0.1.7
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-10-21T14:28:30.442154366Z"
+    created: "2022-10-21T14:32:40.86782916Z"
     description: A Helm chart for Kubernetes
     digest: 92ba9dd545309dbb0d3ec815e2c206382bdf2d7f26c1252186dc60816c9fd908
     name: app1
@@ -23,7 +33,7 @@ entries:
     version: 0.1.6
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-10-21T14:28:30.441687861Z"
+    created: "2022-10-21T14:32:40.867231256Z"
     description: A Helm chart for Kubernetes
     digest: 667044b5ff17a108e67f15289757193b91ce73bd212a53081a982f0c4339a8d2
     name: app1
@@ -33,7 +43,7 @@ entries:
     version: 0.1.5
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-10-21T14:28:30.441179756Z"
+    created: "2022-10-21T14:32:40.866525752Z"
     description: A Helm chart for Kubernetes
     digest: 149cc19387719af3af3aedaf4db17c8f7e776f226e80877f5fe751a177446b11
     name: app1
@@ -43,7 +53,7 @@ entries:
     version: 0.1.4
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-10-21T14:28:30.44062865Z"
+    created: "2022-10-21T14:32:40.865921148Z"
     description: A Helm chart for Kubernetes
     digest: 718b10a10a759fb0f15342ab8a08f84d2a2694b020bc9328c52b358b8dc97c1d
     name: app1
@@ -53,7 +63,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-10-21T14:28:30.440129945Z"
+    created: "2022-10-21T14:32:40.865345845Z"
     description: A Helm chart for Kubernetes
     digest: ca6a8d0366c8b6b7fe51c5b1cd7fb61e192cdbadd79ef6d945f658095ae06259
     name: app1
@@ -63,7 +73,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-10-21T14:28:30.439446038Z"
+    created: "2022-10-21T14:32:40.864798141Z"
     description: A Helm chart for Kubernetes
     digest: b7c76faa305e06e9370e5fe1cc6bd1f6ba88d2e4b1c5d498e7c5a69b7160e4f4
     name: app1
@@ -73,7 +83,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-10-21T14:28:30.438502428Z"
+    created: "2022-10-21T14:32:40.864232738Z"
     description: A Helm chart for Kubernetes
     digest: 1a3261a39323910d5af60db5f3d44953913c2a2d079c0941c57747e968bbe23c
     name: app1
@@ -84,12 +94,12 @@ entries:
   app2:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-10-21T14:28:30.443020575Z"
+    created: "2022-10-21T14:32:40.869525371Z"
     description: A Helm chart for Kubernetes
-    digest: af5f77afb992bdf6dbe144e4d8d2cf0ab3d0fb3f700ee7ca56465e0ea0b92d03
+    digest: 6a54614c37f41278074761b8745d991b0c58b07f86211791f99e52eaf2101653
     name: app2
     type: application
     urls:
     - https://gcolman.github.io/helmcharts/app2-0.1.0.tgz
     version: 0.1.0
-generated: "2022-10-21T14:28:30.436977113Z"
+generated: "2022-10-21T14:32:40.861861223Z"
