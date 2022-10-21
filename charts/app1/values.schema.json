@@ -25,6 +25,7 @@
                     "description": "Creating an ingress will allow your container to be avaiable over the internet"
                 },
                 "hosts": {
+                    "type": "array",
                     "properties": {
                         "host": {
                             "type": "string",
