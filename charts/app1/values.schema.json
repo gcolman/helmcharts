@@ -38,10 +38,9 @@
                     "properties": {}
                 },
                 "hosts":{
-                    "type": "object",        
+                    "type": "array",        
                     "items": [
                     {
-                        "type": "array",
                         "properties": {
                             "host": {
                                 "type": "string",
