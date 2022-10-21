@@ -3,34 +3,23 @@ entries:
   app1:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-10-19T15:59:50.064731+01:00"
+    created: "2022-10-21T09:10:12.936627962Z"
     description: A Helm chart for Kubernetes
-    digest: af1a82e35bda7af81fed964a11cc52848b2be14716ba3c75f90c17af293a4da9
+    digest: 1a3261a39323910d5af60db5f3d44953913c2a2d079c0941c57747e968bbe23c
     name: app1
     type: application
     urls:
-    - https://github.com/gcolman/helmcharts/releases/download/app1-0.1.0/app1-0.1.0.tgz
+    - https://raw.githubusercontent.com/CodeWithStu/helm-private-demo/gh-pages/app1-0.1.0.tgz
     version: 0.1.0
   app2:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-10-19T15:59:50.250316+01:00"
+    created: "2022-10-21T09:10:12.93716671Z"
     description: A Helm chart for Kubernetes
-    digest: bbe8d4a5e39c81c068e3690d1fd976b29f691ba74a116a04ba7cdc7edb1b51b7
+    digest: a4cb24f7235e126c5877ff3993500e96e2bd60541caffb8a34920dc3c972d194
     name: app2
     type: application
     urls:
-    - https://github.com/gcolman/helmcharts/releases/download/app2-0.1.0/app2-0.1.0.tgz
+    - https://raw.githubusercontent.com/CodeWithStu/helm-private-demo/gh-pages/app2-0.1.0.tgz
     version: 0.1.0
-  hello-world:
-  - apiVersion: v2
-    appVersion: 0.1.0
-    created: "2022-10-19T19:16:11.33676+01:00"
-    description: A Helm chart for a Kubernetes hello-world application
-    digest: 9c1e4b1f54adafd2cfcf3a6970c809cd5b4e5601013625a972833f2e1c121aa7
-    name: hello-world
-    type: application
-    urls:
-    - https://github.com/gcolman/helmcharts/releases/download/hello-world-0.1.0/hello-world-0.1.0.tgz
-    version: 0.1.0
-generated: "2022-10-19T19:16:11.336773+01:00"
+generated: "2022-10-21T09:10:12.935549265Z"
