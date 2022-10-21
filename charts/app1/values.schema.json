@@ -24,6 +24,19 @@
                     "form": true,
                     "description": "Creating an ingress will allow your container to be avaiable over the internet"
                 },
+                "className": {
+                    "type": "string",
+                    "title": "ingress classname?",
+                    "form": true,
+                    "description": "the ingress classname"
+                },
+                "annotations": {
+                    "type": "object",
+                    "title": "Annotations",
+                    "form": true,
+                    "description": "the ingress classname",
+                    "properties": {}
+                },
                 "hosts": {
                     "type": "object",
                     "properties": {
@@ -39,3 +52,91 @@
         }
     }
 }
+
+
+
+// "spec": {
+//     "type": "object",
+//     "properties": { 
+//         "ingressClassName": { 
+//             "type": "string"
+//         },
+//       "rules": {
+//         "type": "array",
+//         "items": [
+//           {
+//             "type": "object",
+//             "properties": {
+//               "host": {
+//                 "type": "string"
+//               },
+//               "http": {
+//                 "type": "object",
+//                 "properties": {
+//                   "paths": {
+//                     "type": "array",
+//                     "items": [
+//                       {
+//                         "type": "object",
+//                         "properties": {
+//                           "backend": {
+//                             "type": "object",
+//                             "properties": {
+//                               "service": {
+//                                 "type": "object",
+//                                 "properties": {
+//                                   "name": {
+//                                     "type": "string"
+//                                   },
+//                                   "port": {
+//                                     "type": "object",
+//                                     "properties": {
+//                                       "number": {
+//                                         "type": "integer"
+//                                       }
+//                                     },
+//                                     "required": [
+//                                       "number"
+//                                     ]
+//                                   }
+//                                 },
+//                                 "required": [
+//                                   "name",
+//                                   "port"
+//                                 ]
+//                               }
+//                             },
+//                             "required": [
+//                               "service"
+//                             ]
+//                           },
+//                           "path": {
+//                             "type": "string"
+//                           },
+//                           "pathType": {
+//                             "type": "string"
+//                           }
+//                         },
+//                         "required": [
+//                           "backend",
+//                           "path",
+//                           "pathType"
+//                         ]
+//                       }
+//                     ]
+//                   }
+//                 },
+//                 "required": [
+//                   "paths"
+//                 ]
+//               }
+//             },
+//             "required": [
+//               "host",
+//               "http"
+//             ]
+//           }
+//         ]
+//       }
+//     }
+// }
