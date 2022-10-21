@@ -1,0 +1,25 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "type": "object",
+    "properties": {
+        "repository": {
+            "type": "string",
+            "title": "Container Image",
+            "form": true,
+            "description": "Enter the container image that you will deploy. e.g. nginx"
+        },
+        "ingress": {
+            "type": "object",
+            "title": "Application Ingress",
+            "form": true,
+            "properties": {
+                "enabled": {
+                    "type": "boolean",
+                    "title": "Would you like to create an ingress for your container?",
+                    "form": true,
+                    "description": "Creating an ingress will allow your container to be avaiable over the internet"
+                }
+            }
+        }
+    }
+}
