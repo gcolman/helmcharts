@@ -27,13 +27,13 @@
                 "className": {
                     "type": "string",
                     "title": "ingress classname?",
-                    "form": true,
+                    "form": false,
                     "description": "the ingress classname"
                 },
                 "annotations": {
                     "type": "object",
                     "title": "Annotations",
-                    "form": true,
+                    "form": false,
                     "description": "the ingress classname",
                     "properties": {}
                 },
