@@ -2,11 +2,11 @@ apiVersion: v1
 entries:
   icl-simple-container:
   - apiVersion: v2
-    appVersion: 0.1.0
-    created: "2022-11-03T13:10:30.815900083Z"
+    appVersion: 0.1.1
+    created: "2022-11-03T13:13:53.257895481Z"
     description: Run an existing container and optinally expose an endpoint on port
       8080
-    digest: 9bd31c38d56a1c01d816498c1911ae16e0af94e6980ddf0d213d83c6853b54b1
+    digest: 008ecdac2996f9a2a9f238d63a088a029c43ae552c65cd2cfdf429ab3bf0e56c
     name: icl-simple-container
     type: application
     urls:
@@ -14,10 +14,10 @@ entries:
     version: 0.1.1
   icl-webapp-with-db:
   - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2022-11-03T13:10:30.816437187Z"
+    appVersion: 1.16.1
+    created: "2022-11-03T13:13:53.258446013Z"
     description: Use this chart to deploy an appserver along with a database
-    digest: 3845127a357f06d3c88bfc7c9fad83307008bf886cd212df4d29dfe8daede436
+    digest: e1ecd838d8602b31705065b163e70d729708076ea6ce691de71979d7000a1b20
     name: icl-webapp-with-db
     type: application
     urls:
@@ -25,13 +25,13 @@ entries:
     version: 0.1.19
   icl-webserver-static:
   - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2022-11-03T13:10:30.817013192Z"
+    appVersion: 1.16.1
+    created: "2022-11-03T13:13:53.259566577Z"
     description: Use this chart to deply a webserver including static content
-    digest: 27e952fd669e4212eac955ffcc16f3422aa233b4a1edbce9f3f46bcdbbcf697f
+    digest: ed9b74d0ee8705968657f8a56dd312e2bec41f48dc781163c58b89c2217cc591
     name: icl-webserver-static
     type: application
     urls:
     - https://gcolman.github.io/helmcharts/icl-webserver-static-0.1.1.tgz
     version: 0.1.1
-generated: "2022-11-03T13:10:30.815049076Z"
+generated: "2022-11-03T13:13:53.257128937Z"
