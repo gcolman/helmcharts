@@ -9,7 +9,7 @@
                     "type": "string",
                     "title": "Container Image",
                     "form": true,
-                    "description": "Enter the container image that you will deploy. e.g.  nginx"
+                    "description": "Enter the container image that you will deploy. e.g. nginx"
                 }    
             }
         },
